@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The Apparels — Redefine Your Style. Premium Indian fashion brand offering streetwear, ethnic fusion, and casuals for the bold, modern youth.">
+  <title>The Apparels — Redefine Your Style</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+  <!-- ===== PRELOADER ===== -->
+  <div class="preloader" id="preloader">
+    <div class="preloader-logo">The <span>Apparels</span></div>
+    <div class="preloader-bar"></div>
+    <p class="preloader-text">Curating Your Style</p>
+  </div>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <a href="#" class="nav-logo">The <span>Apparels</span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#trending">Trending</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#products">Shop</a></li>
+      <li><a href="#reviews">Reviews</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle Dark Mode">
+        <i class="fas fa-moon"></i>
+      </button>
+      <button class="cart-btn" id="cartBtn" aria-label="View Cart">
+        <i class="fas fa-shopping-bag"></i>
+        <span class="cart-count" id="cartCount">0</span>
+      </button>
+      <div class="mobile-toggle" id="mobileToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <img src="https://images.unsplash.com/photo-1445205170230-053b83016050?w=1600&q=80" alt="Fashion Banner">
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="hero-particles" id="heroParticles"></div>
+    <div class="hero-content">
+      <div class="hero-badge">✦ New Collection 2026</div>
+      <h1 class="hero-title">Redefine Your Style <br>with <span>The Apparels</span></h1>
+      <p class="hero-subtitle">Where tradition meets trend. Discover fashion crafted for the bold, modern Indian youth — from streetwear to ethnic fusion.</p>
+      <div class="hero-buttons">
+        <a href="#products" class="btn-primary">Shop Now</a>
+        <a href="#trending" class="btn-outline">Explore Collection</a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ===== TRENDING COLLECTION ===== -->
+  <section class="section trending" id="trending">
+    <div class="section-header reveal">
+      <div class="section-badge">🔥 Hot Right Now</div>
+      <h2 class="section-title">Trending <span>Collection</span></h2>
+      <p class="section-desc">Handpicked styles that are making waves this season. Bold, fresh, and undeniably you.</p>
+    </div>
+    <div class="trending-grid">
+      <div class="trending-card reveal">
+        <div class="trending-card-img">
+          <span class="trending-card-tag">New</span>
+          <img src="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&q=80" alt="Streetwear Collection">
+          <div class="trending-card-overlay">
+            <button class="quick-view-btn">Quick View</button>
+          </div>
+        </div>
+        <div class="trending-card-info">
+          <h3 class="trending-card-name">Urban Edge Jacket</h3>
+          <p class="trending-card-category">Streetwear</p>
+          <div class="trending-card-price">
+            <span class="current">₹2,499</span>
+            <span class="original">₹3,999</span>
+          </div>
+        </div>
+      </div>
+      <div class="trending-card reveal">
+        <div class="trending-card-img">
+          <span class="trending-card-tag">Bestseller</span>
+          <img src="https://images.unsplash.com/photo-1583391733956-6c78276477e2?w=600&q=80" alt="Ethnic Fusion Collection">
+          <div class="trending-card-overlay">
+            <button class="quick-view-btn">Quick View</button>
+          </div>
+        </div>
+        <div class="trending-card-info">
+          <h3 class="trending-card-name">Fusion Silk Kurta</h3>
+          <p class="trending-card-category">Ethnic Fusion</p>
+          <div class="trending-card-price">
+            <span class="current">₹1,899</span>
+            <span class="original">₹2,799</span>
+          </div>
+        </div>
+      </div>
+      <div class="trending-card reveal">
+        <div class="trending-card-img">
+          <span class="trending-card-tag">Trending</span>
+          <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=600&q=80" alt="Casuals Collection">
+          <div class="trending-card-overlay">
+            <button class="quick-view-btn">Quick View</button>
+          </div>
+        </div>
+        <div class="trending-card-info">
+          <h3 class="trending-card-name">Minimal Flow Dress</h3>
+          <p class="trending-card-category">Casuals</p>
+          <div class="trending-card-price">
+            <span class="current">₹1,299</span>
+            <span class="original">₹1,999</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT US ===== -->
+  <section class="section about" id="about">
+    <div class="about-container">
+      <div class="about-image reveal-left">
+        <img src="https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=800&q=80" alt="The Apparels Story">
+        <div class="about-image-badge">
+          <div class="number">5+</div>
+          <div class="label">Years of Style</div>
+        </div>
+      </div>
+      <div class="about-content reveal-right">
+        <div class="section-badge">Our Story</div>
+        <h2 class="section-title">Fashion That Feels <span>Like You</span></h2>
+        <p class="about-text">Born in the heart of India, The Apparels is more than a brand — it's a movement. We believe fashion should be expressive, inclusive, and effortlessly cool. From the bustling streets of Mumbai to the campus vibes of Delhi, we design for the young Indian who dares to stand out.</p>
+        <p class="about-text">Every piece is thoughtfully crafted blending global trends with Indian sensibilities. Because your style should tell your story — bold, beautifully real, and unapologetically you.</p>
+        <div class="about-stats">
+          <div class="about-stat">
+            <div class="stat-number">50K+</div>
+            <div class="stat-label">Happy Customers</div>
+          </div>
+          <div class="about-stat">
+            <div class="stat-number">200+</div>
+            <div class="stat-label">Unique Designs</div>
+          </div>
+          <div class="about-stat">
+            <div class="stat-number">15+</div>
+            <div class="stat-label">Cities Served</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FEATURED PRODUCTS ===== -->
+  <section class="section featured" id="products">
+    <div class="section-header reveal">
+      <div class="section-badge">✦ Curated For You</div>
+      <h2 class="section-title">Featured <span>Products</span></h2>
+      <p class="section-desc">A handpicked selection of our finest pieces. Filter by vibe and find what speaks to you.</p>
+    </div>
+    <div class="filter-tabs reveal">
+      <button class="filter-tab active" data-filter="all">All</button>
+      <button class="filter-tab" data-filter="streetwear">Streetwear</button>
+      <button class="filter-tab" data-filter="ethnic">Ethnic Fusion</button>
+      <button class="filter-tab" data-filter="casual">Casuals</button>
+    </div>
+    <div class="products-grid">
+      <!-- Product 1 -->
+      <div class="product-card reveal" data-category="streetwear">
+        <div class="product-card-img">
+          <img src="https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500&q=80" alt="Rebel Bomber Jacket">
+          <button class="product-wishlist" aria-label="Add to Wishlist"><i class="far fa-heart"></i></button>
+          <button class="product-add-cart" data-name="Rebel Bomber Jacket" data-price="3499">Add to Cart</button>
+        </div>
+        <div class="product-card-info">
+          <h3 class="product-card-name">Rebel Bomber Jacket</h3>
+          <p class="product-card-cat">Streetwear</p>
+          <div class="product-card-bottom">
+            <span class="product-card-price">₹3,499</span>
+            <div class="product-card-rating">★★★★★</div>
+          </div>
+        </div>
+      </div>
+      <!-- Product 2 -->
+      <div class="product-card reveal" data-category="ethnic">
+        <div class="product-card-img">
+          <img src="https://images.unsplash.com/photo-1596783074918-c84cb06531ca?w=500&q=80" alt="Royal Nehru Vest">
+          <button class="product-wishlist" aria-label="Add to Wishlist"><i class="far fa-heart"></i></button>
+          <button class="product-add-cart" data-name="Royal Nehru Vest" data-price="2199">Add to Cart</button>
+        </div>
+        <div class="product-card-info">
+          <h3 class="product-card-name">Royal Nehru Vest</h3>
+          <p class="product-card-cat">Ethnic Fusion</p>
+          <div class="product-card-bottom">
+            <span class="product-card-price">₹2,199</span>
+            <div class="product-card-rating">★★★★☆</div>
+          </div>
+        </div>
+      </div>
+      <!-- Product 3 -->
+      <div class="product-card reveal" data-category="casual">
+        <div class="product-card-img">
+          <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&q=80" alt="Chill Vibes Tee">
+          <button class="product-wishlist" aria-label="Add to Wishlist"><i class="far fa-heart"></i></button>
+          <button class="product-add-cart" data-name="Chill Vibes Tee" data-price="799">Add to Cart</button>
+        </div>
+        <div class="product-card-info">
+          <h3 class="product-card-name">Chill Vibes Tee</h3>
+          <p class="product-card-cat">Casuals</p>
+          <div class="product-card-bottom">
+            <span class="product-card-price">₹799</span>
+            <div class="product-card-rating">★★★★★</div>
+          </div>
+        </div>
+      </div>
+      <!-- Product 4 -->
+      <div class="product-card reveal" data-category="streetwear">
+        <div class="product-card-img">
+          <img src="https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=500&q=80" alt="Shadow Hoodie">
+          <button class="product-wishlist" aria-label="Add to Wishlist"><i class="far fa-heart"></i></button>
+          <button class="product-add-cart" data-name="Shadow Hoodie" data-price="1899">Add to Cart</button>
+        </div>
+        <div class="product-card-info">
+          <h3 class="product-card-name">Shadow Hoodie</h3>
+          <p class="product-card-cat">Streetwear</p>
+          <div class="product-card-bottom">
+            <span class="product-card-price">₹1,899</span>
+            <div class="product-card-rating">★★★★★</div>
+          </div>
+        </div>
+      </div>
+      <!-- Product 5 -->
+      <div class="product-card reveal" data-category="ethnic">
+        <div class="product-card-img">
+          <img src="https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=500&q=80" alt="Ivory Sherwani Set">
+          <button class="product-wishlist" aria-label="Add to Wishlist"><i class="far fa-heart"></i></button>
+          <button class="product-add-cart" data-name="Ivory Sherwani Set" data-price="4999">Add to Cart</button>
+        </div>
+        <div class="product-card-info">
+          <h3 class="product-card-name">Ivory Sherwani Set</h3>
+          <p class="product-card-cat">Ethnic Fusion</p>
+          <div class="product-card-bottom">
+            <span class="product-card-price">₹4,999</span>
+            <div class="product-card-rating">★★★★☆</div>
+          </div>
+        </div>
+      </div>
+      <!-- Product 6 -->
+      <div class="product-card reveal" data-category="casual">
+        <div class="product-card-img">
+          <img src="https://images.unsplash.com/photo-1542272604-787c3835535d?w=500&q=80" alt="Urban Slim Jeans">
+          <button class="product-wishlist" aria-label="Add to Wishlist"><i class="far fa-heart"></i></button>
+          <button class="product-add-cart" data-name="Urban Slim Jeans" data-price="1499">Add to Cart</button>
+        </div>
+        <div class="product-card-info">
+          <h3 class="product-card-name">Urban Slim Jeans</h3>
+          <p class="product-card-cat">Casuals</p>
+          <div class="product-card-bottom">
+            <span class="product-card-price">₹1,499</span>
+            <div class="product-card-rating">★★★★★</div>
+          </div>
+        </div>
+      </div>
+      <!-- Product 7 -->
+      <div class="product-card reveal" data-category="streetwear">
+        <div class="product-card-img">
+          <img src="https://images.unsplash.com/photo-1549298916-b41d501d3772?w=500&q=80" alt="Blaze Sneakers">
+          <button class="product-wishlist" aria-label="Add to Wishlist"><i class="far fa-heart"></i></button>
+          <button class="product-add-cart" data-name="Blaze Sneakers" data-price="2799">Add to Cart</button>
+        </div>
+        <div class="product-card-info">
+          <h3 class="product-card-name">Blaze Sneakers</h3>
+          <p class="product-card-cat">Streetwear</p>
+          <div class="product-card-bottom">
+            <span class="product-card-price">₹2,799</span>
+            <div class="product-card-rating">★★★★☆</div>
+          </div>
+        </div>
+      </div>
+      <!-- Product 8 -->
+      <div class="product-card reveal" data-category="ethnic">
+        <div class="product-card-img">
+          <img src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=500&q=80" alt="Anarkali Glow Dress">
+          <button class="product-wishlist" aria-label="Add to Wishlist"><i class="far fa-heart"></i></button>
+          <button class="product-add-cart" data-name="Anarkali Glow Dress" data-price="3299">Add to Cart</button>
+        </div>
+        <div class="product-card-info">
+          <h3 class="product-card-name">Anarkali Glow Dress</h3>
+          <p class="product-card-cat">Ethnic Fusion</p>
+          <div class="product-card-bottom">
+            <span class="product-card-price">₹3,299</span>
+            <div class="product-card-rating">★★★★★</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WHY CHOOSE US ===== -->
+  <section class="section why-us" id="whyus">
+    <div class="section-header reveal">
+      <div class="section-badge">Why The Apparels</div>
+      <h2 class="section-title">Why You'll <span>Love Us</span></h2>
+      <p class="section-desc">We're not just another fashion brand. Here's what makes us special.</p>
+    </div>
+    <div class="why-us-grid">
+      <div class="why-us-card reveal">
+        <div class="why-us-icon"><i class="fas fa-gem"></i></div>
+        <h3 class="why-us-title">Premium Quality</h3>
+        <p class="why-us-text">Every stitch is a promise. We use only the finest fabrics to ensure comfort, durability, and that luxe feel.</p>
+      </div>
+      <div class="why-us-card reveal">
+        <div class="why-us-icon"><i class="fas fa-tags"></i></div>
+        <h3 class="why-us-title">Affordable Luxury</h3>
+        <p class="why-us-text">Look like a million bucks without spending it. Premium fashion at prices that make sense for you.</p>
+      </div>
+      <div class="why-us-card reveal">
+        <div class="why-us-icon"><i class="fas fa-fire"></i></div>
+        <h3 class="why-us-title">Always Trendy</h3>
+        <p class="why-us-text">Our design team stays ahead of the curve, bringing you styles that set trends, not follow them.</p>
+      </div>
+      <div class="why-us-card reveal">
+        <div class="why-us-icon"><i class="fas fa-heart"></i></div>
+        <h3 class="why-us-title">Made for India</h3>
+        <p class="why-us-text">Designed with Indian youth in mind — our fits, styles, and vibes are crafted for the diverse Indian body and soul.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CUSTOMER REVIEWS ===== -->
+  <section class="section reviews" id="reviews">
+    <div class="section-header reveal">
+      <div class="section-badge">Love Letters</div>
+      <h2 class="section-title">What Our <span>Community</span> Says</h2>
+      <p class="section-desc">Real words from real people who live and breathe The Apparels.</p>
+    </div>
+    <div class="reviews-slider reveal">
+      <div class="reviews-track" id="reviewsTrack">
+        <div class="review-card">
+          <div class="review-stars">★ ★ ★ ★ ★</div>
+          <p class="review-text">"The Apparels totally changed my wardrobe game! The ethnic fusion collection is pure fire. I get compliments every single time I step out."</p>
+          <div class="review-author">
+            <div class="review-avatar">AP</div>
+            <div class="review-author-info">
+              <div class="name">Arjun Patel</div>
+              <div class="role">Fashion Enthusiast, Mumbai</div>
+            </div>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">★ ★ ★ ★ ★</div>
+          <p class="review-text">"Finally, a brand that gets Indian youth fashion! The quality is amazing, prices are sweet, and the styles? Absolute stunners. My go-to brand now."</p>
+          <div class="review-author">
+            <div class="review-avatar">SK</div>
+            <div class="review-author-info">
+              <div class="name">Simran Kaur</div>
+              <div class="role">College Student, Delhi</div>
+            </div>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">★ ★ ★ ★ ☆</div>
+          <p class="review-text">"The streetwear range is next level! Comfortable, trendy, and the fit is perfect. Ordered three hoodies and can't wait for more drops."</p>
+          <div class="review-author">
+            <div class="review-avatar">RV</div>
+            <div class="review-author-info">
+              <div class="name">Rohan Verma</div>
+              <div class="role">Content Creator, Bangalore</div>
+            </div>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">★ ★ ★ ★ ★</div>
+          <p class="review-text">"Love how The Apparels blends tradition with modern aesthetics. Their Anarkali dress is my absolute favorite — elegant yet edgy. 10/10 recommend!"</p>
+          <div class="review-author">
+            <div class="review-avatar">NJ</div>
+            <div class="review-author-info">
+              <div class="name">Neha Joshi</div>
+              <div class="role">Designer, Pune</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="reviews-nav">
+        <button id="prevReview" aria-label="Previous Review"><i class="fas fa-arrow-left"></i></button>
+        <button id="nextReview" aria-label="Next Review"><i class="fas fa-arrow-right"></i></button>
+      </div>
+      <div class="reviews-dots" id="reviewsDots"></div>
+    </div>
+  </section>
+
+  <!-- ===== NEWSLETTER ===== -->
+  <section class="section newsletter" id="contact">
+    <div class="section-header">
+      <div class="section-badge reveal">Stay in the Loop</div>
+      <h2 class="section-title reveal">Join the <span>Apparels</span> Family</h2>
+      <p class="section-desc reveal">Subscribe for exclusive drops, style tips, and members-only discounts. No spam — just pure fashion.</p>
+    </div>
+    <form class="newsletter-form reveal" id="newsletterForm">
+      <input type="email" placeholder="Enter your email address" required>
+      <button type="submit" class="btn-primary">Subscribe</button>
+    </form>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="section footer" id="footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <div class="footer-logo">The <span>Apparels</span></div>
+        <p>Redefining Indian youth fashion with bold styles, premium quality, and affordable luxury. Your wardrobe deserves an upgrade.</p>
+        <div class="footer-socials">
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+          <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+          <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#trending">Trending</a></li>
+          <li><a href="#products">Shop</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Categories</h4>
+        <ul>
+          <li><a href="#">Streetwear</a></li>
+          <li><a href="#">Ethnic Fusion</a></li>
+          <li><a href="#">Casuals</a></li>
+          <li><a href="#">Accessories</a></li>
+          <li><a href="#">New Arrivals</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Get in Touch</h4>
+        <div class="footer-contact-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <span>123 Fashion Street, Mumbai, India</span>
+        </div>
+        <div class="footer-contact-item">
+          <i class="fas fa-envelope"></i>
+          <span>hello@theapparels.in</span>
+        </div>
+        <div class="footer-contact-item">
+          <i class="fas fa-phone"></i>
+          <span>+91 98765 43210</span>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 The Apparels. All rights reserved.</p>
+      <div class="footer-bottom-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Shipping & Returns</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- BACK TO TOP -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to Top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <!-- CART TOAST -->
+  <div class="cart-toast" id="cartToast">
+    <i class="fas fa-check-circle"></i>
+    <span id="toastMessage">Added to cart!</span>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
